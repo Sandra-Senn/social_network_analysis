@@ -1,0 +1,115 @@
+,Modulgruppe,Modul,Kürzel,Voraussetzung,Semester
+0,Grundlagen: Mathematik 1,Lineare Algebra 1,lalg1,,1
+1,Grundlagen: Mathematik 1,Lineare Algebra 2,lalg2,lalg1,2
+2,Grundlagen: Mathematik 1,Informatik (M),infM,"an1, lalg1",1
+3,Grundlagen: Mathematik 1,Wahrscheinlichkeitstheorie und Statistik,wst,"lalg1, an2","3,5"
+4,Grundlagen: Mathematik 1,Datenanalyse (Machine Learning),dan,wst,5
+5,Grundlagen: Mathematik 2,Analysis 1,an1,,1
+6,Grundlagen: Mathematik 2,Analysis 2,an2,an1,2
+7,Grundlagen: Mathematik 2,Differenzialgleichungen (SG M),dglM,an2,3
+8,Grundlagen: Mathematik 2,Mehrdimensionale Analysis,man,an2,4
+9,Grundlagen: Mathematik 2,Numerik (Computational Mathematics),num,"lalg1, infM, dglM",4
+10,"Grundlagen:
+Naturwissenschaften",Wärme und Strahlung,wus,an1,2
+11,"Grundlagen:
+Naturwissenschaften",Grundkonzepte der Mechanik,mechM,"an1, lalg1",1
+12,"Grundlagen:
+Naturwissenschaften",Elektromagnetismus,elmag,"an2, mechM, lalg1",3
+13,"Grundlagen:
+Naturwissenschaften",Schwingungen und Wellen,sww,"elmag, mechM, dglM",4
+14,"Grundlagen:
+Naturwissenschaften",Chemie 1,ch1,,1
+15,"Grundlagen:
+Naturwissenschaften",Workshop Chemie,wch,,5
+16,"Grundlagen: Werkstoffe,
+Fertigung, Konstruktion",Werkstoffe 1,werk1,,1
+17,"Grundlagen: Werkstoffe,
+Fertigung, Konstruktion",Werkstoffe 2,werk2,"werk1, phwkl, ch1",2
+18,"Grundlagen: Werkstoffe,
+Fertigung, Konstruktion",Werkstoffe 3,werk3,"werk1, werk2","3,4"
+19,"Grundlagen: Werkstoffe,
+Fertigung, Konstruktion",Herstellung und Konstruktion,hkon,,1
+20,"Grundlagen: Werkstoffe,
+Fertigung, Konstruktion",Maschinenelemente,mel,"mechM, werk1, hkon, stk",2
+21,Grundlagen: Labor,Labor Chemie/Konstruktion,chkL,"ch1, wch, pro1M, hkon",2
+22,Grundlagen: Labor,Labor Physik & Werkstoffe,phwkL,"elmag, wus, werk1, werk2",3
+23,Grundlagen: Labor,Mess- und Sensortechnik,mst,"wus, elmag, eltM",4
+24,Grundlagen: Labor,FEM Simulation,fems,"stk, elstk, werk2, kmk, md",4
+25,Grundlagen: Labor,CFD Simulation,cfds,"flmM, num, man",4
+26,Grundlagen: Labor,Workshop Werkstoffe Konstruktion,wkwkL,"werk1, werk2",4
+27,Grundlagen: Technische Mechanik,Statik,stk,"mechM, an1, lalg1",2
+28,Grundlagen: Technische Mechanik,Elastostatik,elstk,"an2, dglM, stk",3
+29,Grundlagen: Technische Mechanik,Kinematik und Kinetik,kmk,"mechM, stk, an1, an2, lalg1, mel",3
+30,Grundlagen: Technische Mechanik,Maschinendynamik,md,"elstk, kmk, man, dglM, lalg2, fems",4
+31,Grundlagen: Technische Mechanik,Dimensionierung,dms,"stk, elstk, werk2, wst",4
+32,"Grundlagen: Thermo-/Fluid-
+Energietechnik",Thermodynamik,thdM,"an1, wus",2
+33,"Grundlagen: Thermo-/Fluid-
+Energietechnik",Fluidmechanik,flmM,"thdM, mechM, dglM, man",3
+34,"Grundlagen: Thermo-/Fluid-
+Energietechnik",Energietechnische Systeme,egts,"thdM, flmM, eltM",4
+35,"Grundlagen: Elektrische
+Energietechnik",Elektrotechnik (M),eltM,"elmag, dglM",3
+36,"Grundlagen: Elektrische
+Energietechnik",Antriebstechnik mit Labor,atL,eltM,4
+37,"Grundlagen: Elektrische
+Energietechnik",Regelungstechnik mit Labor,rtL,eltM,5
+38,Fachvertiefung: Maschinenbau,Wärmeübertragung,wueb,"thdM, flmM",5
+39,Fachvertiefung: Maschinenbau,Advanced Experimental Methods,aem,"phwkL, mst, eltM, wst, rtL, labvM",5
+40,Fachvertiefung: Maschinenbau,Thermodynamik mit Labor 3,thd3,thdM,5
+41,Fachvertiefung: Maschinenbau,Fluidmechanik mit Labor 3,flm3,"flmM, man, cfds",5
+42,Fachvertiefung: Maschinenbau,Thermodynamik mit Labor 4,thd4,"thd3, flm3",6
+43,Fachvertiefung: Maschinenbau,Fluidmechanik mit Labor 4,flm4,"flm3, thd3, eeww, vmo",6
+44,Fachvertiefung: Maschinenbau,Composite I - Design & Structural Me,c1d,werk3,5
+45,Fachvertiefung: Maschinenbau,Composite I - Manufacturing Technol,c1m,werk3,5
+46,Fachvertiefung: Maschinenbau,Dig. Produktentw. & Verarbeitung 1,dpev1,"werk3, kt1, kt2",5
+47,Fachvertiefung: Maschinenbau,Kunststofftechnik 1,kt1,werk3,5
+48,Fachvertiefung: Maschinenbau,Kunststofftechnik 2,kt2,"kt1, dpev1",6
+49,Fachvertiefung: Maschinenbau,Dig. Produktentw. & Verarbeitung 2,dpev2,"kt1, werk3, dpev1, kt2, werk1, werk2",6
+50,Fachvertiefung: Maschinenbau,Manufacturing Technology 1,mant1,,5
+51,Fachvertiefung: Maschinenbau,Advanced Materials,amat,"werk1, werk2, phwkL, wkwkL, am",6
+52,Fachvertiefung: Maschinenbau,Additive Manufacturing,am,,5
+53,Fachvertiefung: Maschinenbau,Mechatronics with Lab,mea,infM,5
+54,Fachvertiefung: Maschinenbau,Advanced Product Design,apd,"pro4M, hkon",5
+55,Fachvertiefung: Maschinenbau,Manufacturing Technology 2,mant2,mant1,6
+56,Fachvertiefung: Maschinenbau,Datenanalyse (Machine Learning),dan,wst,5
+57,Fachvertiefung: Maschinenbau,Experiment Engineering Workshop,,Gem. Modulbeschreibung,5
+58,Fachvertiefung: Maschinenbau,Model Engineering Challenge 1,,Gem. Modulbeschreibung,5
+59,Fachvertiefung: Maschinenbau,Model Engineering Challenge 2,,Gem. Modulbeschreibung,5
+60,Fachvertiefung: Maschinenbau,Data Engineering Challenge,,Gem. Modulbeschreibung,6
+61,Fachvertiefung: Maschinenbau,Experiment Engineering Challenge,,Gem. Modulbeschreibung,6
+62,Fachergänzung: Maschinenbau,Mikro- und Nanotechnik,minat,,5
+63,Fachergänzung: Maschinenbau,Labview,labvM,"infM, mst",5
+64,Fachergänzung: Maschinenbau,MATLAB-Workshop,matl,"an1, lalg1",5
+65,Fachergänzung: Maschinenbau,Energie- und Kerntechnik,ekt,"wus, thdM, ch1",5
+66,Fachergänzung: Maschinenbau,Erneuerbare Energien: Wind und Wasser,eeww,"eletU, tfd2, kow2",5
+67,Fachergänzung: Maschinenbau,Workshop Adv. Experimental Methods,waem,"phwkL, eltM, wkwkL, infM, mst, wst",5
+68,Fachergänzung: Maschinenbau,Festkörpertechnologie,fkte,"mechM, wus, an1",5
+69,Fachergänzung: Maschinenbau,Mechatronische Systeme,meas1,,5
+70,Fachergänzung: Maschinenbau,Nachhaltige Kunststofftechnik,naku,"dpev1, kt1",5
+71,Fachergänzung: Maschinenbau,Verbrennungsmotoren,vmo,"thdM, flmM, thd3",6
+72,Fachergänzung: Maschinenbau,Industrial Acoustics with Lab,idacu,"sww, md",6
+73,Fachergänzung: Maschinenbau,Lab Manufacturing Technology,mantL,mant1,6
+74,Fachergänzung: Maschinenbau,Verification & Validation with Lab,veva,"elstk, md, stk, elstk",5
+75,Fachergänzung: Maschinenbau,Composite II - Advanced,c2ad,"werk3, c1d, c1m",6
+76,Fachergänzung: Maschinenbau,Advanced Simulation and Validation,asimv,"veva, cfds",6
+77,Fachergänzung: Maschinenbau,Advanced FEM-Simulation,afems,"elstk, kmk, fems",6
+78,Fachergänzung: Maschinenbau,Tech. Anwendung der modernen Physik,tamp,"2 Mod. von mechM, wus, elmag, sww",6
+79,Fachergänzung: Maschinenbau,Additive Manufacturing Polymer,amp,werk3,6
+80,Fachergänzung: Maschinenbau,Climate and Equality Challenge,cich,Gem. Modulbeschreibung,"2,5"
+81,Fachergänzung: Maschinenbau,Drones and Smart Farming,dsf,Gem. Modulbeschreibung,"2,5"
+82,Fachergänzung: Maschinenbau,Energiewirtschaft,enwi,Gem. Modulbeschreibung,"2,5"
+83,Fachergänzung: Maschinenbau,Machine Learning Analyse von Messdaten,mlam,Gem. Modulbeschreibung,"2,5"
+84,Fachergänzung: Maschinenbau,"Materialwiederverwertung, Akzeptanz",mata,Gem. Modulbeschreibung,"2,5"
+85,Fachergänzung: Maschinenbau,Mikromobilität,mimo,Gem. Modulbeschreibung,"2,5"
+86,Fachergänzung: Maschinenbau,Nachhaltige Produktentwicklung,npe,Gem. Modulbeschreibung,"2,5"
+87,Projekte: Maschinenbau,Projekt 1 Maschinenbau,pro1M,,
+88,Projekte: Maschinenbau,Projekt 2 Maschinenbau,pro2M,pro1M,
+89,Projekte: Maschinenbau,Projekt 3 Maschinenbau,pro3M,"pro2M, stk, elstk, kmk",
+90,Projekte: Maschinenbau,Projekt 4 Maschinenbau,pro4M,"pro3M, ten1, fems, cfds",
+91,Projekte: Maschinenbau,Projekt 5 Maschinenbau,pro5M,pro4M,
+92,Projekte: Maschinenbau,Projekt 6 Maschinenbau (Bachelor Thesis),pro6M,pro5M,
+93,Kontext,Kommunikation,2,,"1,2"
+94,Kontext,Englisch,4,,"1,2,3,4"
+95,Kontext,Betriebswirtschaftslehre,2,,"3,4"
+96,Kontext,Wahlpflichtmodule Geistes- und Sozialwissenschaften (GSW),3,,"3,4,5,6"
