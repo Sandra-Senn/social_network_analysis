@@ -1,0 +1,110 @@
+Id,Label,Name,Gruppe,Semester
+lalg1,lalg1,Lineare Algebra 1,Grundlagen: Mathematik 1,11.0
+vmo,vmo,Verbrennungsmotoren,Erneuerbare Energien: Wind und Wasser,6.0
+mimo,mimo,Mikromobilität,Erneuerbare Energien: Wind und Wasser,6.0
+ten1,ten1,,,
+stk,stk,Statik,Grundlagen: Technische Mechanik,6.0
+ch1,ch1,Chemie 1,"Grundlagen:
+Naturwissenschaften",11.0
+dsf,dsf,Drones and Smart Farming,Erneuerbare Energien: Wind und Wasser,6.0
+apd,apd,Advanced Product Design,Fachvertiefung: Maschinenbau,6.0
+werk1,werk1,Werkstoffe 1,"Grundlagen: Werkstoffe,
+Fertigung, Konstruktion",nan
+flm4,flm4,Fluidmechanik mit Labor 4,Fachvertiefung: Maschinenbau,6.0
+rtL,rtL,Regelungstechnik mit Labor,"Grundlagen: Elektrische
+Energietechnik",6.0
+wus,wus,Wärme und Strahlung,"Grundlagen:
+Naturwissenschaften",5.0
+lalg2,lalg2,Lineare Algebra 2,Grundlagen: Mathematik 1,4.0
+2,2,Betriebswirtschaftslehre,Projekte: Maschinenbau,nan
+pro4M,pro4M,Projekt 4 Maschinenbau,Projekte: Maschinenbau,nan
+werk2,werk2,Werkstoffe 2,"Grundlagen: Werkstoffe,
+Fertigung, Konstruktion",5.0
+npe,npe,Nachhaltige Produktentwicklung,Erneuerbare Energien: Wind und Wasser,6.0
+werk3,werk3,Werkstoffe 3,"Grundlagen: Werkstoffe,
+Fertigung, Konstruktion",5.0
+num,num,Numerik (Computational Mathematics),Grundlagen: Mathematik 2,5.0
+kt1,kt1,Kunststofftechnik 1,Fachvertiefung: Maschinenbau,6.0
+wch,wch,Workshop Chemie,"Grundlagen:
+Naturwissenschaften",1.0
+tamp,tamp,Tech. Anwendung der modernen Physik,Erneuerbare Energien: Wind und Wasser,6.0
+dpev2,dpev2,Dig. Produktentw. & Verarbeitung 2,Fachvertiefung: Maschinenbau,6.0
+pro3M,pro3M,Projekt 3 Maschinenbau,Projekte: Maschinenbau,nan
+dglM,dglM,Differenzialgleichungen (SG M),Grundlagen: Mathematik 2,5.0
+minat,minat,Mikro- und Nanotechnik,Fachergänzung: Maschinenbau,nan
+pro6M,pro6M,Projekt 6 Maschinenbau (Bachelor Thesis),Projekte: Maschinenbau,nan
+wueb,wueb,Wärmeübertragung,Fachvertiefung: Maschinenbau,6.0
+asimv,asimv,Advanced Simulation and Validation,Erneuerbare Energien: Wind und Wasser,6.0
+afems,afems,Advanced FEM-Simulation,Erneuerbare Energien: Wind und Wasser,6.0
+pro1M,pro1M,Projekt 1 Maschinenbau,Projekte: Maschinenbau,nan
+veva,veva,Verification & Validation with Lab,Erneuerbare Energien: Wind und Wasser,6.0
+c1d,c1d,Composite I - Design & Structural Me,Fachvertiefung: Maschinenbau,6.0
+wst,wst,Wahrscheinlichkeitstheorie und Statistik,Grundlagen: Mathematik 1,4.0
+elmag,elmag,Elektromagnetismus,"Grundlagen:
+Naturwissenschaften",5.0
+flmM,flmM,Fluidmechanik,"Grundlagen: Thermo-/Fluid-
+Energietechnik",6.0
+mechM,mechM,Grundkonzepte der Mechanik,"Grundlagen:
+Naturwissenschaften",5.0
+chkL,chkL,Labor Chemie/Konstruktion,Grundlagen: Labor,7.0
+flm3,flm3,Fluidmechanik mit Labor 3,Fachvertiefung: Maschinenbau,6.0
+thd3,thd3,Thermodynamik mit Labor 3,Fachvertiefung: Maschinenbau,6.0
+c2ad,c2ad,Composite II - Advanced,Erneuerbare Energien: Wind und Wasser,6.0
+ekt,ekt,Energie- und Kerntechnik,Fachergänzung: Maschinenbau,6.0
+aem,aem,Advanced Experimental Methods,Fachvertiefung: Maschinenbau,6.0
+man,man,Mehrdimensionale Analysis,Grundlagen: Mathematik 2,5.0
+3,3,Wahlpflichtmodule Geistes- und Sozialwissenschaften (GSW),Projekte: Maschinenbau,nan
+thd4,thd4,Thermodynamik mit Labor 4,Fachvertiefung: Maschinenbau,6.0
+amp,amp,Additive Manufacturing Polymer,Erneuerbare Energien: Wind und Wasser,6.0
+mant1,mant1,Manufacturing Technology 1,Fachvertiefung: Maschinenbau,nan
+pro2M,pro2M,Projekt 2 Maschinenbau,Projekte: Maschinenbau,nan
+enwi,enwi,Energiewirtschaft,Erneuerbare Energien: Wind und Wasser,6.0
+mant2,mant2,Manufacturing Technology 2,Fachvertiefung: Maschinenbau,6.0
+an2,an2,Analysis 2,Grundlagen: Mathematik 2,5.0
+min. Anzahl Module,min. Anzahl Module,Kontext,Projekte: Maschinenbau,nan
+dpev1,dpev1,Dig. Produktentw. & Verarbeitung 1,Fachvertiefung: Maschinenbau,6.0
+dms,dms,Dimensionierung,Grundlagen: Technische Mechanik,6.0
+mst,mst,Mess- und Sensortechnik,Grundlagen: Labor,7.0
+nan,nan,Experiment Engineering Workshop,Fachvertiefung: Maschinenbau,6.0
+kt2,kt2,Kunststofftechnik 2,Fachvertiefung: Maschinenbau,6.0
+mel,mel,Maschinenelemente,"Grundlagen: Werkstoffe,
+Fertigung, Konstruktion",5.0
+labvM,labvM,Labview,Fachergänzung: Maschinenbau,6.0
+fkte,fkte,Festkörpertechnologie,Erneuerbare Energien: Wind und Wasser,6.0
+amat,amat,Advanced Materials,Fachvertiefung: Maschinenbau,6.0
+wkwkL,wkwkL,Workshop Werkstoffe Konstruktion,Grundlagen: Labor,3.0
+egts,egts,Energietechnische Systeme,"Grundlagen: Thermo-/Fluid-
+Energietechnik",6.0
+bb,bb,,,
+mlam,mlam,Machine Learning Analyse von Messdaten,Erneuerbare Energien: Wind und Wasser,6.0
+mata,mata,"Materialwiederverwertung, Akzeptanz",Erneuerbare Energien: Wind und Wasser,6.0
+waem,waem,Workshop Adv. Experimental Methods,Erneuerbare Energien: Wind und Wasser,6.0
+sww,sww,Schwingungen und Wellen,"Grundlagen:
+Naturwissenschaften",5.0
+an1,an1,Analysis 1,Grundlagen: Mathematik 2,12.0
+4,4,Englisch,Projekte: Maschinenbau,nan
+am,am,Additive Manufacturing,Fachvertiefung: Maschinenbau,nan
+phwkL,phwkL,Labor Physik & Werkstoffe,Grundlagen: Labor,7.0
+idacu,idacu,Industrial Acoustics with Lab,Erneuerbare Energien: Wind und Wasser,6.0
+md,md,Maschinendynamik,Grundlagen: Technische Mechanik,6.0
+hkon,hkon,Herstellung und Konstruktion,"Grundlagen: Werkstoffe,
+Fertigung, Konstruktion",11.0
+infM,infM,Informatik (M),Grundlagen: Mathematik 1,4.0
+c1m,c1m,Composite I - Manufacturing Technol,Fachvertiefung: Maschinenbau,6.0
+atL,atL,Antriebstechnik mit Labor,"Grundlagen: Elektrische
+Energietechnik",6.0
+elstk,elstk,Elastostatik,Grundlagen: Technische Mechanik,6.0
+fems,fems,FEM Simulation,Grundlagen: Labor,7.0
+thdM,thdM,Thermodynamik,"Grundlagen: Thermo-/Fluid-
+Energietechnik",6.0
+naku,naku,Nachhaltige Kunststofftechnik,Erneuerbare Energien: Wind und Wasser,6.0
+kmk,kmk,Kinematik und Kinetik,Grundlagen: Technische Mechanik,6.0
+cfds,cfds,CFD Simulation,Grundlagen: Labor,7.0
+matl,matl,MATLAB-Workshop,Fachergänzung: Maschinenbau,6.0
+pro5M,pro5M,Projekt 5 Maschinenbau,Projekte: Maschinenbau,nan
+meas1,meas1,Mechatronische Systeme,Erneuerbare Energien: Wind und Wasser,14.0
+mantL,mantL,Lab Manufacturing Technology,Erneuerbare Energien: Wind und Wasser,6.0
+eltM,eltM,Elektrotechnik (M),"Grundlagen: Elektrische
+Energietechnik",6.0
+mea,mea,Mechatronics with Lab,Fachvertiefung: Maschinenbau,6.0
+dan,dan,Datenanalyse (Machine Learning),Fachvertiefung: Maschinenbau,6.0
