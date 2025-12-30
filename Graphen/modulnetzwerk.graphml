@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="edge" attr.name="Label" attr.type="string" />
+  <key id="d4" for="node" attr.name="Name" attr.type="string" />
+  <key id="d3" for="node" attr.name="Gruppe" attr.type="string" />
+  <key id="d2" for="node" attr.name="Name" attr.type="double" />
+  <key id="d1" for="node" attr.name="Semester" attr.type="double" />
+  <key id="d0" for="node" attr.name="Gruppe" attr.type="double" />
+  <graph edgedefault="directed">
+    <node id="bb">
+      <data key="d0">nan</data>
+      <data key="d1">nan</data>
+      <data key="d2">nan</data>
+    </node>
+    <node id="wch">
+      <data key="d3">Grundlagen:
+Naturwissenschaften</data>
+      <data key="d1">1.0</data>
+      <data key="d4">Workshop Chemie</data>
+    </node>
+    <node id="pro1M">
+      <data key="d3">Projekte: Maschinenbau</data>
+      <data key="d1">nan</data>
+      <data key="d4">Projekt 1 Maschinenbau</data>
+    </node>
+    <node id="pro2M">
+      <data key="d3">Projekte: Maschinenbau</data>
+      <data key="d1">nan</data>
+      <data key="d4">Projekt 2 Maschinenbau</data>
+    </node>
+    <node id="pro3M">
+      <data key="d3">Projekte: Maschinenbau</data>
+      <data key="d1">nan</data>
+      <data key="d4">Projekt 3 Maschinenbau</data>
+    </node>
+    <node id="stk">
+      <data key="d3">Grundlagen: Technische Mechanik</data>
+      <data key="d1">6.0</data>
+      <data key="d4">Statik</data>
+    </node>
+    <node id="elstk">
+      <data key="d3">Grundlagen: Technische Mechanik</data>
+      <data key="d1">6.0</data>
+      <data key="d4">Elastostatik</data>
+    </node>
+    <node id="kmk">
+      <data key="d3">Grundlagen: Technische Mechanik</data>
+      <data key="d1">6.0</data>
+      <data key="d4">Kinematik und Kinetik</data>
+    </node>
+    <node id="pro4M">
+      <data key="d3">Projekte: Maschinenbau</data>
+      <data key="d1">nan</data>
+      <data key="d4">Projekt 4 Maschinenbau</data>
+    </node>
+    <node id="ten1">
+      <data key="d0">nan</data>
+      <data key="d1">nan</data>
+      <data key="d2">nan</data>
+    </node>
+    <node id="fems">
+      <data key="d3">Grundlagen: Labor</data>
+      <data key="d1">7.0</data>
+      <data key="d4">FEM Simulation</data>
+    </node>
+    <node id="cfds">
+      <data key="d3">Grundlagen: Labor</data>
+      <data key="d1">7.0</data>
+      <data key="d4">CFD Simulation</data>
+    </node>
+    <node id="pro5M">
+      <data key="d3">Projekte: Maschinenbau</data>
+      <data key="d1">nan</data>
+      <data key="d4">Projekt 5 Maschinenbau</data>
+    </node>
+    <node id="pro6M">
+      <data key="d3">Projekte: Maschinenbau</data>
+      <data key="d1">nan</data>
+      <data key="d4">Projekt 6 Maschinenbau (Bachelor Thesis)</data>
+    </node>
+    <edge source="bb" target="wch">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+    <edge source="pro1M" target="pro2M">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+    <edge source="pro2M" target="pro3M">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+    <edge source="pro3M" target="pro4M">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+    <edge source="stk" target="pro3M">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+    <edge source="elstk" target="pro3M">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+    <edge source="kmk" target="pro3M">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+    <edge source="pro4M" target="pro5M">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+    <edge source="ten1" target="pro4M">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+    <edge source="fems" target="pro4M">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+    <edge source="cfds" target="pro4M">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+    <edge source="pro5M" target="pro6M">
+      <data key="d5">Voraussetzung</data>
+    </edge>
+  </graph>
+</graphml>

@@ -9,9 +9,14 @@ h11==0.16.0
 idna==3.11
 networkx==3.5
 numpy==2.3.5
+matplotlib
+seaborn
+python-louvain
 outcome==1.3.0.post0
 pandas==2.3.3
 pdfminer.six==20251107
+scipy
+pygraphviz
 pdfplumber==0.11.8
 pillow==12.0.0
 pycparser==2.23

@@ -1,0 +1,16 @@
+Id,Label,Name,Gruppe,Semester
+bb,bb,,,
+wch,wch,Workshop Chemie,"Grundlagen:
+Naturwissenschaften",1.0
+pro1M,pro1M,Projekt 1 Maschinenbau,Projekte: Maschinenbau,
+pro2M,pro2M,Projekt 2 Maschinenbau,Projekte: Maschinenbau,
+pro3M,pro3M,Projekt 3 Maschinenbau,Projekte: Maschinenbau,
+stk,stk,Statik,Grundlagen: Technische Mechanik,6.0
+elstk,elstk,Elastostatik,Grundlagen: Technische Mechanik,6.0
+kmk,kmk,Kinematik und Kinetik,Grundlagen: Technische Mechanik,6.0
+pro4M,pro4M,Projekt 4 Maschinenbau,Projekte: Maschinenbau,
+ten1,ten1,,,
+fems,fems,FEM Simulation,Grundlagen: Labor,7.0
+cfds,cfds,CFD Simulation,Grundlagen: Labor,7.0
+pro5M,pro5M,Projekt 5 Maschinenbau,Projekte: Maschinenbau,
+pro6M,pro6M,Projekt 6 Maschinenbau (Bachelor Thesis),Projekte: Maschinenbau,

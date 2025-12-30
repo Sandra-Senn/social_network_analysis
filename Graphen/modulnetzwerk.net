@@ -1,0 +1,29 @@
+*vertices 14
+1 bb 0.0 0.0 ellipse
+2 wch 0.0 0.0 ellipse Gruppe Grundlagen:
+Naturwissenschaften Name "Workshop Chemie"
+3 pro1M 0.0 0.0 ellipse Gruppe "Projekte: Maschinenbau" Name "Projekt 1 Maschinenbau"
+4 pro2M 0.0 0.0 ellipse Gruppe "Projekte: Maschinenbau" Name "Projekt 2 Maschinenbau"
+5 pro3M 0.0 0.0 ellipse Gruppe "Projekte: Maschinenbau" Name "Projekt 3 Maschinenbau"
+6 stk 0.0 0.0 ellipse Gruppe "Grundlagen: Technische Mechanik" Name Statik
+7 elstk 0.0 0.0 ellipse Gruppe "Grundlagen: Technische Mechanik" Name Elastostatik
+8 kmk 0.0 0.0 ellipse Gruppe "Grundlagen: Technische Mechanik" Name "Kinematik und Kinetik"
+9 pro4M 0.0 0.0 ellipse Gruppe "Projekte: Maschinenbau" Name "Projekt 4 Maschinenbau"
+10 ten1 0.0 0.0 ellipse
+11 fems 0.0 0.0 ellipse Gruppe "Grundlagen: Labor" Name "FEM Simulation"
+12 cfds 0.0 0.0 ellipse Gruppe "Grundlagen: Labor" Name "CFD Simulation"
+13 pro5M 0.0 0.0 ellipse Gruppe "Projekte: Maschinenbau" Name "Projekt 5 Maschinenbau"
+14 pro6M 0.0 0.0 ellipse Gruppe "Projekte: Maschinenbau" Name "Projekt 6 Maschinenbau (Bachelor Thesis)"
+*arcs
+1 2 1.0 Label Voraussetzung
+3 4 1.0 Label Voraussetzung
+4 5 1.0 Label Voraussetzung
+5 9 1.0 Label Voraussetzung
+6 5 1.0 Label Voraussetzung
+7 5 1.0 Label Voraussetzung
+8 5 1.0 Label Voraussetzung
+9 13 1.0 Label Voraussetzung
+10 9 1.0 Label Voraussetzung
+11 9 1.0 Label Voraussetzung
+12 9 1.0 Label Voraussetzung
+13 14 1.0 Label Voraussetzung

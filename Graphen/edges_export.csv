@@ -1,0 +1,13 @@
+Source,Target,Type,Label
+bb,wch,Directed,Voraussetzung
+pro1M,pro2M,Directed,Voraussetzung
+pro2M,pro3M,Directed,Voraussetzung
+pro3M,pro4M,Directed,Voraussetzung
+stk,pro3M,Directed,Voraussetzung
+elstk,pro3M,Directed,Voraussetzung
+kmk,pro3M,Directed,Voraussetzung
+pro4M,pro5M,Directed,Voraussetzung
+ten1,pro4M,Directed,Voraussetzung
+fems,pro4M,Directed,Voraussetzung
+cfds,pro4M,Directed,Voraussetzung
+pro5M,pro6M,Directed,Voraussetzung

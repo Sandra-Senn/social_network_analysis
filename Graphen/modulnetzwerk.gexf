@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-12-30">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="Label" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="Gruppe" type="double" />
+      <attribute id="1" title="Semester" type="double" />
+      <attribute id="2" title="Name" type="double" />
+    </attributes>
+    <nodes>
+      <node id="bb" label="bb">
+        <attvalues>
+          <attvalue for="0" value="NaN" />
+          <attvalue for="1" value="NaN" />
+          <attvalue for="2" value="NaN" />
+        </attvalues>
+      </node>
+      <node id="wch" label="wch">
+        <attvalues>
+          <attvalue for="0" value="Grundlagen:&#10;Naturwissenschaften" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="Workshop Chemie" />
+        </attvalues>
+      </node>
+      <node id="pro1M" label="pro1M">
+        <attvalues>
+          <attvalue for="0" value="Projekte: Maschinenbau" />
+          <attvalue for="1" value="NaN" />
+          <attvalue for="2" value="Projekt 1 Maschinenbau" />
+        </attvalues>
+      </node>
+      <node id="pro2M" label="pro2M">
+        <attvalues>
+          <attvalue for="0" value="Projekte: Maschinenbau" />
+          <attvalue for="1" value="NaN" />
+          <attvalue for="2" value="Projekt 2 Maschinenbau" />
+        </attvalues>
+      </node>
+      <node id="pro3M" label="pro3M">
+        <attvalues>
+          <attvalue for="0" value="Projekte: Maschinenbau" />
+          <attvalue for="1" value="NaN" />
+          <attvalue for="2" value="Projekt 3 Maschinenbau" />
+        </attvalues>
+      </node>
+      <node id="stk" label="stk">
+        <attvalues>
+          <attvalue for="0" value="Grundlagen: Technische Mechanik" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="Statik" />
+        </attvalues>
+      </node>
+      <node id="elstk" label="elstk">
+        <attvalues>
+          <attvalue for="0" value="Grundlagen: Technische Mechanik" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="Elastostatik" />
+        </attvalues>
+      </node>
+      <node id="kmk" label="kmk">
+        <attvalues>
+          <attvalue for="0" value="Grundlagen: Technische Mechanik" />
+          <attvalue for="1" value="6.0" />
+          <attvalue for="2" value="Kinematik und Kinetik" />
+        </attvalues>
+      </node>
+      <node id="pro4M" label="pro4M">
+        <attvalues>
+          <attvalue for="0" value="Projekte: Maschinenbau" />
+          <attvalue for="1" value="NaN" />
+          <attvalue for="2" value="Projekt 4 Maschinenbau" />
+        </attvalues>
+      </node>
+      <node id="ten1" label="ten1">
+        <attvalues>
+          <attvalue for="0" value="NaN" />
+          <attvalue for="1" value="NaN" />
+          <attvalue for="2" value="NaN" />
+        </attvalues>
+      </node>
+      <node id="fems" label="fems">
+        <attvalues>
+          <attvalue for="0" value="Grundlagen: Labor" />
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="FEM Simulation" />
+        </attvalues>
+      </node>
+      <node id="cfds" label="cfds">
+        <attvalues>
+          <attvalue for="0" value="Grundlagen: Labor" />
+          <attvalue for="1" value="7.0" />
+          <attvalue for="2" value="CFD Simulation" />
+        </attvalues>
+      </node>
+      <node id="pro5M" label="pro5M">
+        <attvalues>
+          <attvalue for="0" value="Projekte: Maschinenbau" />
+          <attvalue for="1" value="NaN" />
+          <attvalue for="2" value="Projekt 5 Maschinenbau" />
+        </attvalues>
+      </node>
+      <node id="pro6M" label="pro6M">
+        <attvalues>
+          <attvalue for="0" value="Projekte: Maschinenbau" />
+          <attvalue for="1" value="NaN" />
+          <attvalue for="2" value="Projekt 6 Maschinenbau (Bachelor Thesis)" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="bb" target="wch" id="0">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+      <edge source="pro1M" target="pro2M" id="1">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+      <edge source="pro2M" target="pro3M" id="2">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+      <edge source="pro3M" target="pro4M" id="3">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+      <edge source="stk" target="pro3M" id="4">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+      <edge source="elstk" target="pro3M" id="5">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+      <edge source="kmk" target="pro3M" id="6">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+      <edge source="pro4M" target="pro5M" id="7">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+      <edge source="ten1" target="pro4M" id="8">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+      <edge source="fems" target="pro4M" id="9">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+      <edge source="cfds" target="pro4M" id="10">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+      <edge source="pro5M" target="pro6M" id="11">
+        <attvalues>
+          <attvalue for="3" value="Voraussetzung" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

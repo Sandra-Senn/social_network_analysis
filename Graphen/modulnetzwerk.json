@@ -1,0 +1,153 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "Gruppe": NaN,
+      "Semester": NaN,
+      "Name": NaN,
+      "id": "bb"
+    },
+    {
+      "Gruppe": "Grundlagen:\nNaturwissenschaften",
+      "Semester": 1.0,
+      "Name": "Workshop Chemie",
+      "id": "wch"
+    },
+    {
+      "Gruppe": "Projekte: Maschinenbau",
+      "Semester": NaN,
+      "Name": "Projekt 1 Maschinenbau",
+      "id": "pro1M"
+    },
+    {
+      "Gruppe": "Projekte: Maschinenbau",
+      "Semester": NaN,
+      "Name": "Projekt 2 Maschinenbau",
+      "id": "pro2M"
+    },
+    {
+      "Gruppe": "Projekte: Maschinenbau",
+      "Semester": NaN,
+      "Name": "Projekt 3 Maschinenbau",
+      "id": "pro3M"
+    },
+    {
+      "Gruppe": "Grundlagen: Technische Mechanik",
+      "Semester": 6.0,
+      "Name": "Statik",
+      "id": "stk"
+    },
+    {
+      "Gruppe": "Grundlagen: Technische Mechanik",
+      "Semester": 6.0,
+      "Name": "Elastostatik",
+      "id": "elstk"
+    },
+    {
+      "Gruppe": "Grundlagen: Technische Mechanik",
+      "Semester": 6.0,
+      "Name": "Kinematik und Kinetik",
+      "id": "kmk"
+    },
+    {
+      "Gruppe": "Projekte: Maschinenbau",
+      "Semester": NaN,
+      "Name": "Projekt 4 Maschinenbau",
+      "id": "pro4M"
+    },
+    {
+      "Gruppe": NaN,
+      "Semester": NaN,
+      "Name": NaN,
+      "id": "ten1"
+    },
+    {
+      "Gruppe": "Grundlagen: Labor",
+      "Semester": 7.0,
+      "Name": "FEM Simulation",
+      "id": "fems"
+    },
+    {
+      "Gruppe": "Grundlagen: Labor",
+      "Semester": 7.0,
+      "Name": "CFD Simulation",
+      "id": "cfds"
+    },
+    {
+      "Gruppe": "Projekte: Maschinenbau",
+      "Semester": NaN,
+      "Name": "Projekt 5 Maschinenbau",
+      "id": "pro5M"
+    },
+    {
+      "Gruppe": "Projekte: Maschinenbau",
+      "Semester": NaN,
+      "Name": "Projekt 6 Maschinenbau (Bachelor Thesis)",
+      "id": "pro6M"
+    }
+  ],
+  "links": [
+    {
+      "Label": "Voraussetzung",
+      "source": "bb",
+      "target": "wch"
+    },
+    {
+      "Label": "Voraussetzung",
+      "source": "pro1M",
+      "target": "pro2M"
+    },
+    {
+      "Label": "Voraussetzung",
+      "source": "pro2M",
+      "target": "pro3M"
+    },
+    {
+      "Label": "Voraussetzung",
+      "source": "pro3M",
+      "target": "pro4M"
+    },
+    {
+      "Label": "Voraussetzung",
+      "source": "stk",
+      "target": "pro3M"
+    },
+    {
+      "Label": "Voraussetzung",
+      "source": "elstk",
+      "target": "pro3M"
+    },
+    {
+      "Label": "Voraussetzung",
+      "source": "kmk",
+      "target": "pro3M"
+    },
+    {
+      "Label": "Voraussetzung",
+      "source": "pro4M",
+      "target": "pro5M"
+    },
+    {
+      "Label": "Voraussetzung",
+      "source": "ten1",
+      "target": "pro4M"
+    },
+    {
+      "Label": "Voraussetzung",
+      "source": "fems",
+      "target": "pro4M"
+    },
+    {
+      "Label": "Voraussetzung",
+      "source": "cfds",
+      "target": "pro4M"
+    },
+    {
+      "Label": "Voraussetzung",
+      "source": "pro5M",
+      "target": "pro6M"
+    }
+  ]
+}
