@@ -113,26 +113,18 @@ Die Analyse erfolgt in drei aufeinander aufbauenden Notebooks:
 
 ## Ausblick
 
+Die vorliegende Analyse hat die Grundstruktur des Curriculums mit Netzwerkanalyse-Methoden untersucht. Folgende Punkte zeigen konkret, welche Aspekte noch angepasst oder erweitert werden können, damit die Ergebnisse praxisnäher oder ausführlicher werden:
 
-Die vorliegende Analyse hat die Grundstruktur des Curriculums mittels Netzwerkanalyse untersucht. Zahlreiche weiterführende Ansätze wären möglich gewesen, um ein noch umfassenderes Bild zu erhalten:
+- **Granularität:** Zeitliche Auflösung (Semester vs. Jahr), Aggregationslevel (Module vs. Themenbereiche) und Attributfeinheit (Lehrveranstaltungen, Dozierende) variieren, um verschiedene Fragestellungen zu bedienen.
+- **Methoden- und Parameterwahl:** Zentralitätsmasse, Schwellen für Dichte- oder Verbindungsschnittmengen, sowie Community-Detection-Parameter (z. B. Auflösungsparameter) anpassen und vergleichen, um Robustheit zu prüfen.
+- **Multiplex-Modelle:** Zusätzliche Beziehungstypen (Empfehlungen, zeitliche Inkompatibilitäten, Kapazitätsbeschränkungen) als separate Schichten modellieren und schichtübergreifende Analysen durchführen.
+- **Simulationen & Optimierung:** Studienverlaufs-Simulationen mit unterschiedlichen Randbedingungen (Kapazitäten, Wahlpräferenzen) und Optimierungszielen (Studienzeit minimieren, Auslastung glätten) ermöglichen.
+- **Validierung mit Real‑Daten:** Anonymisierte Studienverläufe und Leistungsdaten integrieren, um Befunde empirisch zu prüfen und Engpässe zu identifizieren.
+- **Dokumentation & Reproduzierbarkeit:** Parameter, Varianten und Datenpipeline klar dokumentieren; Skripte parametrisieren, damit Anpassungen einfach getestet werden können.
+- **Dozierende & Workload-Analyse:** In zukünftigen Erweiterungen sollten Dozierenden-Daten ergänzt werden (Zuordnung Dozierender → Module, Anzahl gelehrter Module, Kontaktstunden). Damit lassen sich Workload-Verteilungen analysieren, Dozierende identifizieren, die viele oder zentral vernetzte Module betreuen, und potenzielle Engpass- oder Abhängigkeitspersonen erkennen.
+- **Stundenplandaten & Optimierung:** Genaue Stundenplandaten (Termine, Zeiten, Räume) integrieren, um Überschneidungen und zeitliche Konflikte zu erkennen. Auf dieser Grundlage sind automatische Konflikterkennung, Vorschläge zur Verlagerung/Konsolidierung von Veranstaltungen und Optimierungen zur Minimierung von Überschneidungen möglich.
 
-**Erweiterte Visualisierungen**
-Interaktive Netzwerkdarstellungen mit Plotly oder D3.js hätten eine explorative Analyse ermöglicht, bei der Nutzer Module anklicken, filtern und verschiedene Perspektiven einnehmen können. Animierte Visualisierungen des Studienverlaufs über Semester hinweg würden die zeitliche Dimension besser erfassen. Heatmaps der Modulbelegung mit flexiblen Filteroptionen nach Semestern, Themenbereichen oder Schwierigkeitsgraden hätten zusätzliche Einsichten ermöglicht.
-
-**Temporale Analyse**
-Die Integration vollständiger Semesterinformationen für alle Module hätte eine präzisere Analyse optimaler Belegungsreihenfolgen ermöglicht. Algorithmen zur Optimierung von Studienverläufen unter Berücksichtigung von Voraussetzungen und Kapazitäten wären wertvoll gewesen. Die Simulation verschiedener Studienpfade hätte gezeigt, welche Wahlentscheidungen zu längeren oder kürzeren Studienzeiten führen.
-
-**Vergleichende Studien**
-Ein systematischer Vergleich mit Curricula anderer Hochschulen hätte Stärken und Schwächen des untersuchten Studiengangs aufgezeigt. Benchmarking gegen identifizierte Best Practices in der Curriculum-Gestaltung hätte konkrete Verbesserungsvorschläge generieren können. Die Mustererkennung in erfolgreichen Curriculumstrukturen hätte allgemeine Designprinzipien offenbart.
-
-**Integration realer Studiendaten**
-Die Analyse anonymisierter Studienverläufe hätte den Abgleich zwischen geplanter und tatsächlicher Modulbelegung ermöglicht. Die empirische Identifikation praktischer Bottlenecks würde zeigen, wo die grössten Herausforderungen im realen Studienbetrieb liegen. Die Analyse von Erfolgsquoten in Abhängigkeit von der Netzwerkposition einzelner Module hätte deren tatsächliche Schwierigkeit offenbart.
-
-**Methodische Vertiefung**
-Der systematische Vergleich verschiedener Community-Detection-Algorithmen (Louvain, Infomap, Leiden, Label Propagation) hätte die Robustheit der identifizierten Modulgruppen validiert. Die Analyse hierarchischer Community-Strukturen über mehrere Ebenen würde feinere thematische Untergliederungen offenbaren. Die Detektion überlappender Communities wäre besonders für interdisziplinäre Module relevant gewesen.
-
-**Multiplex-Netzwerkanalyse**
-Die Modellierung verschiedener Beziehungstypen (Voraussetzungen, Empfehlungen, zeitliche Inkompatibilitäten) in einem multiplen Netzwerk hätte die Komplexität des Curriculums besser abgebildet. Die schichtübergreifende Analyse von Interdependenzen würde zeigen, wie verschiedene Arten von Abhängigkeiten zusammenwirken. Die Identifikation kritischer Layer im Gesamtnetzwerk könnte Prioritäten für Optimierungsmassnahmen setzen.
+Priorisierungsvorschlag: zuerst Vorverarbeitung (Datenqualität & Semesterinformationen), dann robuste Methodenvergleiche (Community‑ und Zentralitätsvarianten), danach interaktive Visualisierungen und optional Multiplex‑Modelle.
 
 
 ## Autoren
