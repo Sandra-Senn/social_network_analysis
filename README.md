@@ -19,9 +19,9 @@ social_network_analysis/
 │   └── [Aufgezeichnete Präsentation (max. 20 Min.)]
 ├── Source/                        # Source-Code
 │   ├── notebooks/                 # Jupyter Notebooks
-│   │   ├── datenbeschaffung.ipynb # Webscraping und Datenextraktion
-│   │   ├── datenanalyse.ipynb     # Exploratory Data Analysis
-│   │   └── netzwerkanalyse.ipynb # Hauptanalyse (Netzwerkanalyse)
+│   │   ├── 1_datenbeschaffung.ipynb # Webscraping und Datenextraktion
+│   │   ├── 2_datenanalyse.ipynb     # Exploratory Data Analysis
+│   │   └── 3_netzwerkanalyse.ipynb # Hauptanalyse (Netzwerkanalyse)
 │   ├── export_graphs.py          # Script zum Export der Graphen
 │   └── requirements.txt          # Python-Abhängigkeiten
 ├── Rohdaten/                      # Rohdaten-Ausgaben
@@ -113,7 +113,6 @@ Die Analyse erfolgt in drei aufeinander aufbauenden Notebooks:
 
 ## Ausblick
 
-## Ausblick
 
 Die vorliegende Analyse hat die Grundstruktur des Curriculums mittels Netzwerkanalyse untersucht. Zahlreiche weiterführende Ansätze wären möglich gewesen, um ein noch umfassenderes Bild zu erhalten:
 
