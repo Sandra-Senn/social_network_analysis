@@ -20,7 +20,7 @@ social_network_analysis/
 ├── Source/                        # Source-Code
 │   ├── notebooks/                 # Jupyter Notebooks
 │   │   ├── datenbeschaffung.ipynb # Webscraping und Datenextraktion
-│   │   ├── eda.ipynb             # Exploratory Data Analysis
+│   │   ├── datenanalyse.ipynb     # Exploratory Data Analysis
 │   │   └── netzwerkanalyse.ipynb # Hauptanalyse (Netzwerkanalyse)
 │   ├── export_graphs.py          # Script zum Export der Graphen
 │   └── requirements.txt          # Python-Abhängigkeiten
@@ -30,23 +30,12 @@ social_network_analysis/
 │   ├── edges.csv                 # Voraussetzungsbeziehungen
 │   └── Modultabelle Maschinenbau_HS2025_updated.pdf
 ├── Graphen/                       # Exportierte Netzwerk-Graphen
-│   ├── modulnetzwerk.graphml     # NetworkX Standard-Format
-│   ├── modulnetzwerk.gexf        # Gephi-kompatibel
-│   ├── modulnetzwerk.json        # JSON-Format (Web-Visualisierungen)
-│   ├── modulnetzwerk.gml         # Graph Modeling Language
-│   ├── modulnetzwerk.net         # Pajek-Format
-│   ├── modulnetzwerk.dot         # Graphviz-Format
-│   ├── modulnetzwerk.pickle      # Python Pickle-Format
-│   ├── edges_export.csv          # Edge-Liste mit Attributen
-│   ├── nodes_export.csv          # Node-Liste mit Attributen
-│   ├── adjazenzmatrix.csv        # Adjazenzmatrix-Darstellung
-│   └── edgelist.txt              # Einfache Text-Edge-Liste
 ├── doc/                           # Zusätzliche Dokumentation
 │   ├── SNA-Projektbeschreibung.pdf
 │   ├── Modultabelle Maschinenbau_HS2025_updated.pdf
 │   ├── Bewertungsraster.xlsx
 │   └── Meilenstein-SNA-Projekt-Sandra-Michelle.docx
-└── README.md                      # Diese Datei
+└── README.md                     
 ```
 
 ## Installation
